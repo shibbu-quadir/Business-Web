@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/shibbu-quadir/Business-Web.git/static/css/main.941dee17.css",
+    "main.js": "/shibbu-quadir/Business-Web.git/static/js/main.67bf56aa.js",
+    "index.html": "/shibbu-quadir/Business-Web.git/index.html",
+    "main.941dee17.css.map": "/shibbu-quadir/Business-Web.git/static/css/main.941dee17.css.map",
+    "main.67bf56aa.js.map": "/shibbu-quadir/Business-Web.git/static/js/main.67bf56aa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.941dee17.css",
+    "static/js/main.67bf56aa.js"
+  ]
+}
