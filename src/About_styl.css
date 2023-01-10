@@ -1,0 +1,27 @@
+.container{
+    background-color:black;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    width:100%;
+}
+.container h1{
+    text-align:center;
+}
+img{
+ background:none;
+}
+/*3d look image*/
+.image-container img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    margin: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    transform: perspective(600px) rotateY(10deg);
+    transition: transform 0.5s;
+  }
+  
+  .image-container img:hover {
+    transform: perspective(600px) rotateY(-10deg);
+  }
