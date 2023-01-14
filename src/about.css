@@ -1,0 +1,29 @@
+.img-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 50px;
+}
+
+/* media query for screent less than 800px*/
+@media screen and (max-width: 900px) {
+	.img-container {
+		gap: 10px;
+	}
+}
+
+/* media query for screent less than 652px*/
+@media screen and (max-width: 652px) {
+	.img-container {
+		gap: 1px;
+	}
+	.img-container > img {
+		width: 100%;
+		max-height: 400px;
+		height: 100%;
+		object-fit: cover;
+		box-shadow: none;
+
+		margin: 0px;
+	}
+}

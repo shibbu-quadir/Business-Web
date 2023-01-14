@@ -1,38 +1,36 @@
 import React from "react";
-import "./NavStyle.css"
+import "./NavStyle.css";
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
-import Home from "./About";
-import About from "./Home";
+import About from "./About";
+import Home from "./Home";
 import Contact from "./Contact";
 
 function App() {
-
 	return (
 		<>
 			<BrowserRouter>
-            <nav className="main-div">
-	<div className="logo">
-  <h2>
-	<span>S</span>IBGHATULLAH
-<span>Q</span>
-  </h2>
-</div>
-<div className="menu-link">
-	<ul>
-		<li>
-			<NavLink to="/">Home</NavLink>
-		</li>
-		<li>
-			<NavLink to="/Contact">Contact Us</NavLink>
-		</li>
-		<li>
-			<NavLink to="/About">About Us</NavLink>
-		</li>
-	</ul>
-</div>
-
-   </nav>
-					{/*</BrowserRouter><div style={ margin: '10px' }}>
+				<nav className="main-div">
+					<div className="logo">
+						<h2>
+							<span>S</span>IBGHATULLAH
+							<span>Q</span>
+						</h2>
+					</div>
+					<div className="menu-link">
+						<ul>
+							<li>
+								<NavLink to="/">Home</NavLink>
+							</li>
+							<li>
+								<NavLink to="/Contact">Contact Us</NavLink>
+							</li>
+							<li>
+								<NavLink to="/About">About Us</NavLink>
+							</li>
+						</ul>
+					</div>
+				</nav>
+				{/*</BrowserRouter><div style={ margin: '10px' }}>
 						<NavLink to="/" style={({ isActive }) => ({
 							color: isActive ? 'greenyellow' : 'white' })}>
 							Home
