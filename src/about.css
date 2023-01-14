@@ -1,4 +1,5 @@
 .img-container {
+	margin-top: 5px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
